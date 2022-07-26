@@ -1,0 +1,50 @@
+:root {
+    --dark-grey: #463F3A;
+    --middle-grey: #8A817C;
+    --silver: #BCB8B1;
+    --light-silver: #F4F3EE;
+    --melon: #E0AFA0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-silver);
+    color: var(--dark-grey);
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    margin-bottom: 2rem;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: .25rem 1rem;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid var(--melon);
+}
+
+button {
+    padding: .25rem 1rem;
+    border: none;
+    background-color: var(--melon);
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+img {
+    padding: .25rem;
+    transition: transform .25s linear;
+}
+
+img:hover {
+    transform: scale(1.1)
+}
