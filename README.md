@@ -6,4 +6,5 @@ Simple web application using the TVMaze API.
 - HTML
 - CSS
 - JavaScript
+- Axios
 - TVMaze API
