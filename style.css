@@ -2,8 +2,8 @@
     --dark-grey: #463F3A;
     --middle-grey: #8A817C;
     --silver: #BCB8B1;
-    --light-silver: #F4F3EE;
-    --melon: #E0AFA0;
+    --light-silver: 	hsl(14, 15%, 95%);
+    --melon: 	hsl(14, 100%, 75%);
 }
 
 body {
